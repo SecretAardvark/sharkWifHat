@@ -1,0 +1,8 @@
+await contract.sharkBite("0x5fbdb2315678afecb367f032d93f642f64180aa3", 100)
+await contract.sharkBite(0x5fbdb2315678afecb367f032d93f642f64180aa3, 100)
+await contract.tipHat();
+   console.log(result);
+   const result = await contract.swimInTheOcean();
+   // Now you can call contract functions
+   const contract = await SharkWifHat.attach("0x5fbdb2315678afecb367f032d93f642f64180aa3"); // Use the address from your deployment
+   const SharkWifHat = await ethers.getContractFactory("SharkWifHat");

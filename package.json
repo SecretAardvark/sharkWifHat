@@ -1,0 +1,16 @@
+{
+  "name": "sharkwifhat",
+  "module": "index.ts",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@types/bun": "latest",
+    "hardhat": "^2.22.6"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "dotenv": "^16.4.5"
+  }
+}
